@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/PLinq_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Plinq_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Task_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Task_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Task_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Async_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Async_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/Task_4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TPL/PLinq_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Async_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Async_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../IEnumerable_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Messaging" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Sender" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Receiver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Sender" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Messaging" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver_2" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Async_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Async_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Async_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Async_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/PLinq_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/PLinq_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/PLinq_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/PLinq_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Plinq_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Plinq_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_4/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TPL/Task_4/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Messaging/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Messaging/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Receiver_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Sender/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/broadcast/Sender/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Messaging/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Messaging/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Receiver/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Receiver/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Sender/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../paterns/servicebus/simple/Sender/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_4/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IEnumerable_4/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/Linq/IQueryable_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Async_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Async_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Async_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Async_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/PLinq_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_1/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_1/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_2/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_2/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_3/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_3/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_4/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../tips-and-tricks/TPL/Task_4/obj" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
