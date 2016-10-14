@@ -1,4 +1,4 @@
-﻿namespace ActorTypes.Messages
+﻿namespace ActorRouters.Messages
 {
     public class OrderMessage
     {

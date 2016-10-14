@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Threading.Tasks;
 using System.Windows;
 
@@ -14,13 +15,13 @@ namespace Async_3
         void Button1_Click(object sender, RoutedEventArgs e)
         {
             Task.Delay(TimeSpan.FromSeconds(10)).Wait();
-            Title = DateTime.Now.ToString();
+            Title = DateTime.Now.ToString(CultureInfo.InvariantCulture);
         }
 
         async void Button2_Click(object sender, RoutedEventArgs e)
         {
             await Task.Delay(TimeSpan.FromSeconds(10));
-            Title = DateTime.Now.ToString();
+            Title = DateTime.Now.ToString(CultureInfo.InvariantCulture);
         }
     }
 }

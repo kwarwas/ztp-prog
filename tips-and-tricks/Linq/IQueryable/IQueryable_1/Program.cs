@@ -14,20 +14,24 @@ namespace IQueryable_1
             {
                 // TODO: Wyświetlić trzy nazwy losowych produktów
 
+                context.Database.Log = Console.WriteLine;
+
                 var products = context.Products
-                    //???
-                    .Take(3);
+                    .ToArray()
+                    .OrderBy(x => Guid.NewGuid())
+                    .Take(3)
+                    .Select(x => x.ProductName);
 
                 foreach (var item in products)
                 {
-                    Console.WriteLine(item.ProductName);
+                    Console.WriteLine(item);
                 }
 
                 Console.WriteLine();
 
                 foreach (var item in products)
                 {
-                    Console.WriteLine(item.ProductName);
+                    Console.WriteLine(item);
                 }
             }
         }

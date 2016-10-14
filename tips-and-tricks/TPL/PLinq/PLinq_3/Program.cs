@@ -28,6 +28,8 @@ namespace PLinq_3
 
                     var men = records
                         .AsParallel()
+                        .WithDegreeOfParallelism(3)
+                        .AsOrdered()
                         .Where(x => x.Id > 10010);
 
                     foreach (var item in men.Take(1000))

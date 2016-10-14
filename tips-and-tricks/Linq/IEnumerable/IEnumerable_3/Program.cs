@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace IEnumerable_3
 {
@@ -7,7 +8,9 @@ namespace IEnumerable_3
     {
         static void Main(string[] args)
         {
-            var collection = Method(new[] { 5, 6, 7 });
+            ICollection<int> collection = 
+                Method(new[] { 5, 6, 7 })
+                .ToArray();
 
             Console.WriteLine(string.Join(", ", collection));
             Console.WriteLine(string.Join(", ", collection));

@@ -8,7 +8,8 @@ namespace IEnumerable_1
         static void Main(string[] args)
         {
             var list = Enumerable.Range(1, 2)
-                .Select(x => Guid.NewGuid());
+                .Select(x => Guid.NewGuid())
+                ;
 
             foreach (var item in list)
             {

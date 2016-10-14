@@ -1,17 +1,17 @@
-﻿using ActorTypes.Actors;
-using ActorTypes.Messages;
+﻿using ActorRouters.Actors;
+using ActorRouters.Messages;
 using Akka.Actor;
 using Akka.Routing;
 using System;
 using System.Linq;
 
-namespace Routers
+namespace ActorRouters
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var system = ActorSystem.Create("Routers");
+            var system = ActorSystem.Create("ActorRouters");
 
             var props = Props.Create<OrderTypedActor>().WithRouter(new RoundRobinPool(5));
 

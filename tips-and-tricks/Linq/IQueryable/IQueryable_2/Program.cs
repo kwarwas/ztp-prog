@@ -21,10 +21,13 @@ namespace IQueryable_2
 
                 var customerTypes = context.Customers
                     .Where(x => x.Orders.Any())
+                    .ToArray()
                     .Select(x => new
                     {
                         x.CustomerID,
-                        Price = x.Orders.Sum(y => y.Order_Details.Sum(z => (1 - z.Discount) * z.Quantity * (float)z.UnitPrice))
+                        Price = x.Orders
+                            .Sum(y => y.Order_Details
+                            .Sum(z => (1 - (decimal)z.Discount) * z.Quantity * z.UnitPrice))
                     })
                     .Select(x => new
                     {

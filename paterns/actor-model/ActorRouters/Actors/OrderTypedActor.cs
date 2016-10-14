@@ -1,8 +1,8 @@
 ﻿using Akka.Actor;
-using ActorTypes.Messages;
+using ActorRouters.Messages;
 using System;
 
-namespace ActorTypes.Actors
+namespace ActorRouters.Actors
 {
     public class OrderTypedActor : TypedActor, IHandle<OrderMessage>
     {

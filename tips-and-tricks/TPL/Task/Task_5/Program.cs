@@ -14,9 +14,10 @@ namespace Async_2
 
             var t1 = Task.Run(() => Method());
             var t2 = Task.Run(() => Method());
-            var t3 = Task.Run(() => Method());
+            //var t3 = Task.Run(() => Method());
+            Method();
 
-            Task.WaitAll(t1, t2, t3);
+            Task.WaitAll(t1, t2);
 
             Console.WriteLine(sw.Elapsed);
         }

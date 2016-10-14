@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace IEnumerable_2
 {
@@ -7,7 +8,7 @@ namespace IEnumerable_2
     {
         static void Main(string[] args)
         {
-            Method(new[] { 1, 2, 3 });
+            Method(new[] { 1, 2, 3 }).ToArray();
             Method(new[] { 5, 6, 7 });
         }
 
