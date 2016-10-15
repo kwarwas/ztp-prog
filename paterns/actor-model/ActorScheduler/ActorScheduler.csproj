@@ -7,8 +7,8 @@
     <ProjectGuid>{34C8D4D0-5060-4E50-B6FF-4C16CE298C34}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ActorSchedule</RootNamespace>
-    <AssemblyName>ActorSchedule</AssemblyName>
+    <RootNamespace>ActorScheduler</RootNamespace>
+    <AssemblyName>ActorScheduler</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

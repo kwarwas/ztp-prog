@@ -1,4 +1,4 @@
-﻿namespace ActorSchedule.Messages
+﻿namespace ActorScheduler.Messages
 {
     public class OrderMessage
     {

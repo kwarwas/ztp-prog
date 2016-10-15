@@ -1,4 +1,4 @@
-﻿namespace ActorRouters.Messages
+﻿namespace ActorStashing.Messages
 {
     public class OrderMessage
     {

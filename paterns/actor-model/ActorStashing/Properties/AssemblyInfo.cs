@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ActorSchedule")]
+[assembly: AssemblyTitle("ActorStashing")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ActorSchedule")]
+[assembly: AssemblyProduct("ActorStashing")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("34c8d4d0-5060-4e50-b6ff-4c16ce298c34")]
+[assembly: Guid("e9b633bc-8ff2-4a0a-9587-e4b083d48963")]
 
 // Version information for an assembly consists of the following four values:
 //

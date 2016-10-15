@@ -1,8 +1,8 @@
 ﻿using Akka.Actor;
-using ActorSchedule.Messages;
+using ActorScheduler.Messages;
 using System;
 
-namespace ActorSchedule.Actors
+namespace ActorScheduler.Actors
 {
     public class OrderActor : ReceiveActor
     {
@@ -22,7 +22,7 @@ namespace ActorSchedule.Actors
         {
             _cancelable = Context.System.Scheduler.ScheduleTellRepeatedlyCancelable(
                 TimeSpan.Zero,
-                TimeSpan.FromSeconds(5),
+                TimeSpan.FromSeconds(2),
                 Self,
                 new OrderMessage(1, "Akka.NET Book"),
                 Self);
@@ -31,6 +31,7 @@ namespace ActorSchedule.Actors
         protected override void PostStop()
         {
             _cancelable.Cancel();
+            Console.WriteLine("Scheduler canceled");
         }
     }
 }
