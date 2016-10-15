@@ -7,7 +7,7 @@ namespace ActorSchedule
     {
         static void Main(string[] args)
         {
-            var system = ActorSystem.Create("ActorTypes");
+            var system = ActorSystem.Create("ActorSchedule");
 
             var actor = system.ActorOf<OrderActor>();
 
