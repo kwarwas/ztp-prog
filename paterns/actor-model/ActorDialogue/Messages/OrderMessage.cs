@@ -5,7 +5,7 @@ namespace ActorRouters.Messages
     public class OrderMessage
     {
         public int Id { get; private set; }
-        public ImmutableArray<string> Names { get; set; }
+        public ImmutableArray<string> Names { get; private set; }
 
         public OrderMessage(int id, string[] names)
         {

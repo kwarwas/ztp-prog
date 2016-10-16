@@ -2,8 +2,8 @@
 {
     public class OrderDetailsMessage
     {
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+        public string Name { get; private set; }
+        public decimal Price { get; private set; }
 
         public OrderDetailsMessage(string name, decimal price)
         {

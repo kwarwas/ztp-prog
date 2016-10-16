@@ -3,7 +3,7 @@
     public class OrderMessage
     {
         public int Id { get; private set; }
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
         public OrderMessage(int id, string name)
         {
