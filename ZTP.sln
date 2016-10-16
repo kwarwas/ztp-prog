@@ -111,6 +111,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Local", "patern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Remote", "paterns\actor-model\remote\RemoteActor.Remote\RemoteActor.Remote.csproj", "{189496FE-7105-42EA-9DA7-F8BB6C3A872B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "persistence", "persistence", "{A985A11F-D0B5-420F-94B6-EF2F6A9B4167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistence", "paterns\actor-model\persistence\ActorPersistence\ActorPersistence.csproj", "{A149395B-8E54-45D4-83FE-0408EC58F82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -281,6 +285,10 @@ Global
 		{189496FE-7105-42EA-9DA7-F8BB6C3A872B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{189496FE-7105-42EA-9DA7-F8BB6C3A872B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{189496FE-7105-42EA-9DA7-F8BB6C3A872B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A149395B-8E54-45D4-83FE-0408EC58F82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A149395B-8E54-45D4-83FE-0408EC58F82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A149395B-8E54-45D4-83FE-0408EC58F82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A149395B-8E54-45D4-83FE-0408EC58F82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -338,5 +346,7 @@ Global
 		{ECF0690D-B337-4D7E-B2B1-6E4DDB7BAD52} = {CB464000-F87D-44A4-8BF5-C6A287054B25}
 		{699AC191-D620-4AA9-822C-DFD95935C148} = {CB464000-F87D-44A4-8BF5-C6A287054B25}
 		{189496FE-7105-42EA-9DA7-F8BB6C3A872B} = {CB464000-F87D-44A4-8BF5-C6A287054B25}
+		{A985A11F-D0B5-420F-94B6-EF2F6A9B4167} = {0B7F4BA6-6BC1-4E42-9B09-BB99904C7E24}
+		{A149395B-8E54-45D4-83FE-0408EC58F82F} = {A985A11F-D0B5-420F-94B6-EF2F6A9B4167}
 	EndGlobalSection
 EndGlobal
