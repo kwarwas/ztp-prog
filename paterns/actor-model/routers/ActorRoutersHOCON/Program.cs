@@ -24,7 +24,6 @@ namespace ActorRouters
                 }
             );
 
-
             //actor.Tell(PoisonPill.Instance);
             //vs
             //actor.Tell(new Broadcast(PoisonPill.Instance));

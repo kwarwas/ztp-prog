@@ -10,7 +10,7 @@ namespace ActorPersistence.Actors
     public class OrderActor : ReceivePersistentActor
     {
         public string OrderId { get; }
-        public IList<OrderDetailsMessage> OrderDetails { get; }
+        public ICollection<OrderDetailsMessage> OrderDetails { get; }
 
         public override string PersistenceId { get; }
         
