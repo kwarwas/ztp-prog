@@ -13,11 +13,11 @@ namespace ActorRouters
         {
             var system = ActorSystem.Create("ActorRouters");
 
-            var props = Props.Create<OrderTypedActor>().WithRouter(new RoundRobinPool(5));
+            var props = Props.Create<OrderActor>().WithRouter(new RoundRobinPool(5));
 
             var actor = system.ActorOf(props);
 
-            Enumerable.Range(1, 9).ToList().ForEach
+            Enumerable.Range(1, 10).ToList().ForEach
             (
                 x => actor.Tell(new OrderMessage(x, "Akka.NET Book"))
             );

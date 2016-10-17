@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Receiver_1</RootNamespace>
     <AssemblyName>Receiver_1</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -85,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Messaging\Messaging.csproj">
-      <Project>{afe92b1c-bd1f-4f44-b142-6b0381fbdc02}</Project>
+      <Project>{ffa03aa9-9702-46e8-ad37-bd782fdf2aac}</Project>
       <Name>Messaging</Name>
     </ProjectReference>
   </ItemGroup>

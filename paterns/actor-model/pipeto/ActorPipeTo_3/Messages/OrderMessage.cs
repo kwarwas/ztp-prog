@@ -2,8 +2,8 @@
 {
     public class OrderMessage
     {
-        public int Id { get; private set; }
-        public string Name { get; set; }
+        public int Id { get; }
+        public string Name { get; }
 
         public OrderMessage(int id, string name)
         {

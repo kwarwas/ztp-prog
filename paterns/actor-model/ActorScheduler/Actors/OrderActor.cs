@@ -15,7 +15,7 @@ namespace ActorScheduler.Actors
 
         public void Handle(OrderMessage message)
         {
-            Console.WriteLine("#Receive message: {0} {1}", message.Id, message.Name);
+            Console.WriteLine("{0} - Receive message: {1} {2}", DateTime.Now, message.Id, message.Name);
         }
 
         protected override void PreStart()

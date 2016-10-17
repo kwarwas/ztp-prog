@@ -11,11 +11,9 @@ namespace RemoteActor.Common.Actors
             Receive<OrderMessage>(message => Handle(message));
         }
 
-        private bool Handle(OrderMessage message)
+        private void Handle(OrderMessage message)
         {
             Console.WriteLine("Receive message: {0} {1}", message.Id, message.Name);
-
-            return true;
         }
 
         protected override void PreStart()

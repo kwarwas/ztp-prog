@@ -15,7 +15,7 @@ namespace ActorStashing.Actors
             Receive<OrderMessage>(message => Handle(message));
         }
 
-        private bool Handle(OrderMessage message)
+        private void Handle(OrderMessage message)
         {
             Console.WriteLine("Receive message: {0} {1}", message.Id, message.Name);
 
@@ -31,8 +31,6 @@ namespace ActorStashing.Actors
                 _simulator.Proccess(message);
                 Console.WriteLine("Message {0} processed", message.Id);
             }
-
-            return true;
         }
     }
 }

@@ -15,8 +15,6 @@ namespace ActorRouters.Actors
         {
             var target = Context.ActorOf<OrderReceiveActor>();
 
-            Console.WriteLine(target);
-
             target.Forward(message);
         }
     }

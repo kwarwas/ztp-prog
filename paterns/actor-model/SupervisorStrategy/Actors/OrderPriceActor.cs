@@ -12,7 +12,7 @@ namespace ActorRouters.Actors
             Receive<string>(message => GetPrice(message));
         }
 
-        private bool GetPrice(string message)
+        private void GetPrice(string message)
         {
             Console.WriteLine("{0} {1}", Guid, message);
 
@@ -24,8 +24,6 @@ namespace ActorRouters.Actors
             Console.WriteLine("jest");
 
             Sender.Tell((decimal)message.Length, Self);
-
-            return true;
         }
 
         protected override void PreStart()
@@ -38,12 +36,6 @@ namespace ActorRouters.Actors
         {
             Console.WriteLine("PostStop");
             base.PostStop();
-        }
-
-        public override void AroundPostRestart(Exception cause, object message)
-        {
-            Console.WriteLine(cause);
-            base.AroundPostRestart(cause, message);
         }
 
         protected override void PreRestart(Exception reason, object message)

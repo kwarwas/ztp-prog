@@ -13,15 +13,15 @@ namespace ActorRouters.Actors
             Receive<OrderMessage>(message => CalculateTotalPrice(message));
         }
 
-        private bool CalculateTotalPrice(OrderMessage message)
+        private void CalculateTotalPrice(OrderMessage message)
         {
-            var tasks = message.Names.Select(x => Context.ActorOf<OrderPriceActor>().Ask<decimal>(x));
+            var tasks = message.Names
+                .Select(x => Context.ActorOf<OrderPriceActor>().Ask<decimal>(x))
+                .ToArray();
 
-            Task.WaitAll(tasks.ToArray());
+            Task.WaitAll(tasks);
 
             Console.WriteLine("Total price: ${0}", tasks.Sum(x => x.Result));
-
-            return true;
         }
     }
 }

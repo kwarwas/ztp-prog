@@ -9,11 +9,9 @@ namespace ActorRouters.Actors
             Receive<string>(message => GetPrice(message));
         }
 
-        private bool GetPrice(string message)
+        private void GetPrice(string message)
         {
             Sender.Tell((decimal)message.Length, Self);
-
-            return true;
         }
     }
 }
