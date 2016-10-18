@@ -1,15 +1,15 @@
-﻿using ActorBecome.Actors;
-using ActorBecome.Messages;
+﻿using ActorStacked.Actors;
+using ActorStacked.Messages;
 using Akka.Actor;
 using System;
 
-namespace ActorBecome
+namespace ActorStacked
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var system = ActorSystem.Create("ActorBecome");
+            var system = ActorSystem.Create("ActorStacked");
 
             var actor = system.ActorOf<MarketReceiveActor>();
 

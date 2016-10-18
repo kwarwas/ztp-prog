@@ -1,8 +1,8 @@
 ﻿using Akka.Actor;
-using ActorBecome.Messages;
+using ActorStacked.Messages;
 using System;
 
-namespace ActorBecome.Actors
+namespace ActorStacked.Actors
 {
     public class MarketReceiveActor : ReceiveActor
     {
@@ -27,13 +27,13 @@ namespace ActorBecome.Actors
 
         private void MarketOpenHandle()
         {
-            Become(MarketOpen);
+            BecomeStacked(MarketOpen);
             Console.WriteLine("Now market is OPEN");
         }
 
         private void MarketCloseHandle()
         {
-            Become(MarketClose);
+            UnbecomeStacked();
             Console.WriteLine("Now market is CLOSE");
         }
     }
