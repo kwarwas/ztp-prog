@@ -1,16 +1,16 @@
-﻿using ActorRouters.Actors;
-using ActorRouters.Messages;
-using Akka.Actor;
-using System;
+﻿using System;
 using System.Threading.Tasks;
+using ActorSupervisorStrategy.Actors;
+using ActorSupervisorStrategy.Messages;
+using Akka.Actor;
 
-namespace SupervisorStrategy
+namespace ActorSupervisorStrategy
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var system = ActorSystem.Create("SupervisorStrategy");
+            var system = ActorSystem.Create("ActorSupervisorStrategy");
 
             var orderReceiveActor = system.ActorOf<OrderReceiveActor>();
 

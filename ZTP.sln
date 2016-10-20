@@ -83,7 +83,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorTypes", "paterns\actor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorDialogue", "paterns\actor-model\ActorDialogue\ActorDialogue.csproj", "{F96328FF-C863-4BEC-8E6E-EFBE82DA22BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisorStrategy", "paterns\actor-model\SupervisorStrategy\SupervisorStrategy.csproj", "{2C6D0F0C-789C-4472-8CC5-C0E8726F6FD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorSupervisorStrategy", "paterns\actor-model\SupervisorStrategy\ActorSupervisorStrategy.csproj", "{2C6D0F0C-789C-4472-8CC5-C0E8726F6FD3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorScheduler", "paterns\actor-model\ActorScheduler\ActorScheduler.csproj", "{34C8D4D0-5060-4E50-B6FF-4C16CE298C34}"
 EndProject

@@ -1,6 +1,6 @@
 ﻿namespace ActorPersistence.Messages
 {
-    class PriceMessage
+    public class PriceMessage
     {
     }
 }

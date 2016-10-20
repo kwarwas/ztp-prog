@@ -6,15 +6,9 @@ namespace ActorStashing
 {
     class ExternalServiceSimulator
     {
-        private int counter = 0;
+        private int _counter = 0;
 
-        public bool IsBusy
-        {
-            get
-            {
-                return ++counter == 2 || counter == 3;
-            }
-        }
+        public bool IsBusy => ++_counter == 2 || _counter == 3;
 
         public void Proccess(OrderMessage message)
         {

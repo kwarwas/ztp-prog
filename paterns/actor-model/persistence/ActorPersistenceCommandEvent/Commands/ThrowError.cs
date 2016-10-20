@@ -1,6 +1,6 @@
 ﻿namespace ActorPersistence.Commands
 {
-    class ThrowError
+    public class ThrowError
     {
     }
 }
