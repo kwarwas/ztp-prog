@@ -1,8 +1,8 @@
-﻿using Akka.Actor;
-using System;
-using ActorDialogue.Messages;
+﻿using ActorDialogue.Messages;
+using ActorRouters.Actors;
+using Akka.Actor;
 
-namespace ActorRouters.Actors
+namespace ActorDialogue.Actors
 {
     public class OrderForwardActor : ReceiveActor
     {
