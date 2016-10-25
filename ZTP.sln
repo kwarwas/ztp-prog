@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorBecome", "paterns\acto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStacked", "paterns\actor-model\switchable-behaviors\ActorStacked\ActorStacked.csproj", "{E10740B3-1FE8-4534-841E-A214690C0E41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistenceSnapshot", "paterns\actor-model\persistence\ActorPersistenceSnapshot\ActorPersistenceSnapshot.csproj", "{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -317,6 +319,10 @@ Global
 		{E10740B3-1FE8-4534-841E-A214690C0E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E10740B3-1FE8-4534-841E-A214690C0E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E10740B3-1FE8-4534-841E-A214690C0E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,5 +388,6 @@ Global
 		{52768F37-A6FE-470D-A244-C35A7465521D} = {0B7F4BA6-6BC1-4E42-9B09-BB99904C7E24}
 		{286B36BF-C651-42C9-91DD-97E1420B0150} = {52768F37-A6FE-470D-A244-C35A7465521D}
 		{E10740B3-1FE8-4534-841E-A214690C0E41} = {52768F37-A6FE-470D-A244-C35A7465521D}
+		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453} = {A985A11F-D0B5-420F-94B6-EF2F6A9B4167}
 	EndGlobalSection
 EndGlobal
