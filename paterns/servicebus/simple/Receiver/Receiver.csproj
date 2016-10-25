@@ -35,15 +35,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MassTransit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\MassTransit.3.4.0\lib\net452\MassTransit.dll</HintPath>
+      <HintPath>..\..\..\..\packages\MassTransit.3.4.1\lib\net452\MassTransit.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MassTransit.RabbitMqTransport, Version=3.4.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\MassTransit.RabbitMQ.3.4.0\lib\net452\MassTransit.RabbitMqTransport.dll</HintPath>
+      <HintPath>..\..\..\..\packages\MassTransit.RabbitMQ.3.4.1\lib\net452\MassTransit.RabbitMqTransport.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MassTransit.SeriLogIntegration, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\packages\MassTransit.SerilogIntegration.3.4.0\lib\net452\MassTransit.SeriLogIntegration.dll</HintPath>
+    <Reference Include="MassTransit.SeriLogIntegration, Version=3.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\MassTransit.SerilogIntegration.3.4.1\lib\net452\MassTransit.SeriLogIntegration.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NewId, Version=2.1.3.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\NewId.2.1.3\lib\net45\NewId.dll</HintPath>
@@ -54,11 +55,12 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="RabbitMQ.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\RabbitMQ.Client.4.0.2\lib\net451\RabbitMQ.Client.dll</HintPath>
+      <HintPath>..\..\..\..\packages\RabbitMQ.Client.4.1.0\lib\net451\RabbitMQ.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Serilog.FullNetFx, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10">
-      <HintPath>..\..\..\..\packages\Serilog.1.5.14\lib\net45\Serilog.FullNetFx.dll</HintPath>
+    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Serilog.2.3.0\lib\net46\Serilog.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

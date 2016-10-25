@@ -1,7 +1,7 @@
-﻿using Akka.Actor;
-using ActorRouters.Messages;
+﻿using ActorSupervisorStrategy.Messages;
+using Akka.Actor;
 
-namespace ActorRouters.Actors
+namespace ActorSupervisorStrategy.Actors
 {
     public class OrderReceiveActor : ReceiveActor
     {

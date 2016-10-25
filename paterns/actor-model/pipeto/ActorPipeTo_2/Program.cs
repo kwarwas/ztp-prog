@@ -1,5 +1,5 @@
 ﻿using ActorPipeTo.Actors;
-using ActorSchedule.Messages;
+using ActorPipeTo.Messages;
 using Akka.Actor;
 
 namespace ActorPipeTo

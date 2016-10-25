@@ -1,6 +1,6 @@
 ﻿using Akka.Actor;
 
-namespace ActorStashing
+namespace RemoteActor.Remote
 {
     class Program
     {
@@ -12,4 +12,3 @@ namespace ActorStashing
         }
     }
 }
-

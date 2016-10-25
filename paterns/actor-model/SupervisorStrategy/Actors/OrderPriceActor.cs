@@ -1,7 +1,7 @@
-﻿using Akka.Actor;
-using System;
+﻿using System;
+using Akka.Actor;
 
-namespace ActorRouters.Actors
+namespace ActorSupervisorStrategy.Actors
 {
     public class OrderPriceActor : ReceiveActor
     {

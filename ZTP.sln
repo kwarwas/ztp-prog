@@ -83,7 +83,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorTypes", "paterns\actor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorDialogue", "paterns\actor-model\ActorDialogue\ActorDialogue.csproj", "{F96328FF-C863-4BEC-8E6E-EFBE82DA22BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisorStrategy", "paterns\actor-model\SupervisorStrategy\SupervisorStrategy.csproj", "{2C6D0F0C-789C-4472-8CC5-C0E8726F6FD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorSupervisorStrategy", "paterns\actor-model\SupervisorStrategy\ActorSupervisorStrategy.csproj", "{2C6D0F0C-789C-4472-8CC5-C0E8726F6FD3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorScheduler", "paterns\actor-model\ActorScheduler\ActorScheduler.csproj", "{34C8D4D0-5060-4E50-B6FF-4C16CE298C34}"
 EndProject
@@ -126,6 +126,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorBecome", "paterns\actor-model\switchable-behaviors\ActorBecome\ActorBecome.csproj", "{286B36BF-C651-42C9-91DD-97E1420B0150}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStacked", "paterns\actor-model\switchable-behaviors\ActorStacked\ActorStacked.csproj", "{E10740B3-1FE8-4534-841E-A214690C0E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cluster", "cluster", "{5F98E315-517D-4EF1-AB6E-CAF958FE33F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorCluster", "paterns\actor-model\cluster\ActorCluster\ActorCluster.csproj", "{024CA0B4-C12C-4185-81AD-722F916F7144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lighthouse", "paterns\actor-model\cluster\Lighthouse\Lighthouse.csproj", "{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistenceSnapshot", "paterns\actor-model\persistence\ActorPersistenceSnapshot\ActorPersistenceSnapshot.csproj", "{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}"
 EndProject
@@ -319,6 +325,14 @@ Global
 		{E10740B3-1FE8-4534-841E-A214690C0E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E10740B3-1FE8-4534-841E-A214690C0E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E10740B3-1FE8-4534-841E-A214690C0E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024CA0B4-C12C-4185-81AD-722F916F7144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024CA0B4-C12C-4185-81AD-722F916F7144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024CA0B4-C12C-4185-81AD-722F916F7144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024CA0B4-C12C-4185-81AD-722F916F7144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -388,6 +402,9 @@ Global
 		{52768F37-A6FE-470D-A244-C35A7465521D} = {0B7F4BA6-6BC1-4E42-9B09-BB99904C7E24}
 		{286B36BF-C651-42C9-91DD-97E1420B0150} = {52768F37-A6FE-470D-A244-C35A7465521D}
 		{E10740B3-1FE8-4534-841E-A214690C0E41} = {52768F37-A6FE-470D-A244-C35A7465521D}
+		{5F98E315-517D-4EF1-AB6E-CAF958FE33F6} = {0B7F4BA6-6BC1-4E42-9B09-BB99904C7E24}
+		{024CA0B4-C12C-4185-81AD-722F916F7144} = {5F98E315-517D-4EF1-AB6E-CAF958FE33F6}
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A} = {5F98E315-517D-4EF1-AB6E-CAF958FE33F6}
 		{EDF15DB4-43A8-4FD6-B5E7-C88F85527453} = {A985A11F-D0B5-420F-94B6-EF2F6A9B4167}
 	EndGlobalSection
 EndGlobal

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ActorPersistence.Messages
+﻿namespace ActorPersistence.Messages
 {
-    class ErrorMessage
+    public class ErrorMessage
     {
     }
 }

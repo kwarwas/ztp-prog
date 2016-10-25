@@ -1,6 +1,6 @@
 ﻿using System.Collections.Immutable;
 
-namespace ActorRouters.Messages
+namespace ActorDialogue.Messages
 {
     public class OrderMessage
     {

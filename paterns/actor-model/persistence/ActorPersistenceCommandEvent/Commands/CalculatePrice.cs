@@ -1,6 +1,6 @@
 ﻿namespace ActorPersistence.Commands
 {
-    class CalculatePrice
+    public class CalculatePrice
     {
     }
 }

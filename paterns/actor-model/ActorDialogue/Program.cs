@@ -1,7 +1,7 @@
-﻿using ActorRouters.Actors;
-using ActorRouters.Messages;
-using Akka.Actor;
+﻿using Akka.Actor;
 using System;
+using ActorDialogue.Actors;
+using ActorDialogue.Messages;
 
 namespace ActorDialogue
 {

@@ -1,6 +1,6 @@
 ﻿using Akka.Actor;
 
-namespace ActorRouters.Actors
+namespace ActorDialogue.Actors
 {
     public class OrderPriceActor : ReceiveActor
     {

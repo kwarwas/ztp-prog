@@ -2,11 +2,10 @@
 using ActorPersistence.Messages;
 using Akka.Actor;
 using MongoDB.Bson.Serialization;
-using System;
 
 namespace ActorPersistence
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
